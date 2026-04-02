@@ -7,6 +7,8 @@ import React from 'react'
 import config from '@payload-config'
 import { RichText } from '@/components/RichText'
 
+export const dynamic = 'force-dynamic'
+
 interface PageProps {
   params: Promise<{
     slug: string
